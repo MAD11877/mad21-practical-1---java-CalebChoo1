@@ -48,7 +48,6 @@ public class Question5
             num = numlist[i];
         }
     }
-    System.out.println("The mode is " + num);
-    
+    System.out.println(num);
   }
 }
