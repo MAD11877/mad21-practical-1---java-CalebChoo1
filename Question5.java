@@ -27,11 +27,9 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter the number of integers you will be entering: ");
     int max = in.nextInt();
     int[] numlist = new int[max]; 
     for(int i = 0; i < max; i++) {   
-      System.out.print("Please enter an integer: ");
       numlist[i]=in.nextInt();  
     } 
     int maxCount = 0;
