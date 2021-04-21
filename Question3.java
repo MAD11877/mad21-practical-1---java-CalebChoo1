@@ -15,5 +15,6 @@ public class Question3
     int num = in.nextInt();
     int multiplied = num * num;
     System.out.print("Result: " + multiplied);
+    
   }
 }

@@ -17,5 +17,6 @@ public class Question2
     double height = in.nextDouble();
     double bmi = weight / (height * height);
     System.out.print("\nYour Body Mass Index is " + bmi + " kg/m2");
+    
   }
 }
