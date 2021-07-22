@@ -23,7 +23,7 @@ public class Question4
       for(int y = i; y > 0; y--) {
         System.out.print("*");
       }
-      System.out.print("\n");
+      System.out.println();
     }
   }
 }
